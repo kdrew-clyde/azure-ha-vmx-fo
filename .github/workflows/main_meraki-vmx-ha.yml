@@ -27,6 +27,6 @@ jobs:
           app-name: 'Meraki-VMX-HA'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DCFA651BBC26481087D3F6251830374C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_045C54A78B4D45D5BDE4ED17670F9445 }}
           sku: 'flexconsumption'
         
